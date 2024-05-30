@@ -1,8 +1,14 @@
 {
     "name": "midiauai/acl",
     "description": "Midiauai ACL Module for laminas.",
+    "extra": {
+        "laminas": {
+            "module": "Midiauai\\ACL"
+        }
+    },
     "require": {
-        "php": "^8.1"
+        "php": "^8.1",
+        "doctrine/migrations": "^3.7"
     },
     "license": "BSD-3-Clause",
     "autoload": {
